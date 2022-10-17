@@ -128,7 +128,7 @@ class MainActivity : AppCompatActivity() {
         operation = ""
         var inputReady: Boolean = true
     }
-
+//
     fun Addition(lhs: Float, rhs: Float): Float
     {
         return lhs + rhs
