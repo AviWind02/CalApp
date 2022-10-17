@@ -1,4 +1,11 @@
 package com.example.lab.one.culproject
+/**
+ * MainActivity.kt
+ * Aviraj gill
+ * 200458156
+ * 2022-09-30
+ * This is a calculator app, and is does the basic stuff nothing to too cool
+ */
 
 /**
  * MainActivity.kt
