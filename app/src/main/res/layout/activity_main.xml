@@ -346,7 +346,7 @@
                 android:layout_marginStart="@dimen/button_margin_left"
                 android:layout_marginEnd="@dimen/button_margin_right"
                 android:backgroundTint="@color/buttonGrey"
-                android:onClick="OperatorButtons"
+                android:onClick="ExtraButtons"
                 android:text="@string/plus_minus_button"
                 android:textColor="@color/white"
                 android:textSize="@dimen/button_font_size"
