@@ -1,5 +1,13 @@
 package com.example.lab.one.culproject
 
+/**
+ * MainActivity.kt
+ * Aviraj gill
+ * 200458156
+ * 2022-09-30
+ * This is a calculator app, and is does the basic stuff nothing to too cool
+ */
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -72,7 +80,7 @@ class MainActivity : AppCompatActivity() {
 
         if(haveLHS && haveRHS)
         {
-            Evaluate()
+           // Evaluate()
         }
 
         when(buttonText)
@@ -146,6 +154,10 @@ class MainActivity : AppCompatActivity() {
         when(operation)
         {
             "+" -> result = Addition(lhs.toFloat(), rhs.toFloat())
+            "-" -> result = Subtraction(lhs.toFloat(), rhs.toFloat())
+            "X" -> result = Multiplication(lhs.toFloat(), rhs.toFloat())
+            "/" -> result = Division(lhs.toFloat(), rhs.toFloat())
+
         }
 
         ResultLabel?.text  = result.toString()
